@@ -110,7 +110,7 @@ button:hover{
   animation: stretch 2s infinite;
 }
 
-@keyframes stretch{
+/* @keyframes stretch{ 
   0%{height: auto;}
   10%{height: 150px}
   20%{height: 200px;}
@@ -122,4 +122,4 @@ button:hover{
   80%{height: 200px}
   90%{height: 150px}
   100%{height: 100px}
-}
+} */
