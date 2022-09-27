@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orangered; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: royalblue; 
+  }
+
+body{
+    background-color: black;
+}
+nav{
+    text-align: center;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    align-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    text-align: center;
+    font-family:'Press Start 2P', cursive;
+    color: orangered;
+}
+
+p{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    color: orangered;
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    animation-name: okIpullUP;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+.PContainer{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+form{
+  text-align: center;
+}
+input{
+  height: 40px;
+}
+button:hover{
+  background-color: royalblue;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: black;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.movingimg{
+  animation: stretch 2s infinite;
+}
+
+@keyframes stretch{
+  0%{height: auto;}
+  10%{height: 150px}
+  20%{height: 200px;}
+  30%{height: 250px;}
+  40%{height: 300px;}
+  50%{height: 350px;}
+  60%{height: 300px;}
+  70%{height: 250px}
+  80%{height: 200px}
+  90%{height: 150px}
+  100%{height: 100px}
+}
