@@ -21,8 +21,9 @@
   }
 
 body{
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,69,0,1) 100%, rgba(0,212,255,1) 100%);
+  background: black url(http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSe2SRHzKzn6UzW-LX8ZMeElI5w8QnRAQiubLEbelyY47V7J5WxjgsR_aeSzBrpyaSk), repeat-y, center;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,69,0,1) 100%, rgba(0,212,255,1) 100%); */
 }
 nav{
     text-align: center;
